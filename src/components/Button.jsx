@@ -14,7 +14,7 @@ const Button = ({
                     backgroundColor: backgroundColor,
                     borderRadius: pill ? "1rem" : ".25rem",
                     padding: ".25rem .75rem",
-                    margin: "0 .25rem",
+                    margin: ".25rem",
                     border: "none"
             }}
         >

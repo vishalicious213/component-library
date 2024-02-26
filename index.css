@@ -8,6 +8,15 @@ body {
     background-image: linear-gradient(to right, #dfe9ff, #cfdfff);
 }
 
+h2 {
+    font-size: 1.5rem;
+}
+
+h3 {
+    font-size: 1rem;
+    font-weight: 200;
+}
+
 /* FONTS */
 
 .inter {
@@ -31,7 +40,7 @@ body {
 }
 
 .container {
-    margin: .5rem 0;
+    margin: .5rem 0 1rem;
 }
 
 /* BADGES */
