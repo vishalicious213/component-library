@@ -1,8 +1,10 @@
-body {
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    /* background-color: #cfdfff; */
+}
+
+body {
     background-image: linear-gradient(to right, #dfe9ff, #cfdfff);
 }
 
@@ -25,5 +27,5 @@ body {
 }
 
 .container {
-    margin: .25rem 0;
+    margin: .5rem 0;
 }
