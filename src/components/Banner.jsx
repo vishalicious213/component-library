@@ -1,8 +1,6 @@
 import React from 'react'
 
-const Banner = ({
-    type="error", 
-}) => {
+const Banner = ({ type }) => {
     let bannerStyle = {}
 
     if (type === "success") {
@@ -41,7 +39,6 @@ const Banner = ({
             typeText: "Update available",
             bodyText: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid pariatur, ipsum similique veniam."
         }
-
     }
 
     return (
