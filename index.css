@@ -2,6 +2,8 @@ body {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    /* background-color: #cfdfff; */
+    background-image: linear-gradient(to right, #dfe9ff, #cfdfff);
 }
 
 .inter {
