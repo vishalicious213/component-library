@@ -30,6 +30,13 @@ const App = () => {
 
             <div className="container">
                 <h2 className="marker">Banners</h2>
+                <Banner type="success" desc />
+                <Banner type="warning" desc />
+                <Banner type="error" desc />
+                <Banner type="neutral" desc />
+            </div>
+
+            <div className="container">
                 <Banner type="success" />
                 <Banner type="warning" />
                 <Banner type="error" />

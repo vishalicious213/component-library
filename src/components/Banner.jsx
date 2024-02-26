@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Banner = ({ type }) => {
+const Banner = ({ type, desc }) => {
     let bannerStyle = {}
 
     if (type === "success") {
@@ -61,7 +61,7 @@ const Banner = ({ type }) => {
             </div>
             <div>
                 <p style={{fontWeight: 600, color: bannerStyle.titleColor, marginBottom: ".5rem"}}>{bannerStyle.typeText}</p>
-                <p style={{fontWeight: 400, color: bannerStyle.bodyColor}}>{type ? bannerStyle.bodyText : null}</p>
+                <p style={{fontWeight: 400, color: bannerStyle.bodyColor}}>{desc ? bannerStyle.bodyText : null}</p>
             </div>
         </div>
     )
