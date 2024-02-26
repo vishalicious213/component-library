@@ -1,7 +1,7 @@
 import React from 'react'
 
 const Banner = ({
-    type="neutral", 
+    type="warning", 
 }) => {
     let bannerStyle = {}
 
@@ -16,6 +16,13 @@ const Banner = ({
         }
     } else if (type === "warning") {
         console.log("Warning")
+        bannerStyle = {
+            titleColor: "#92400E",
+            bodyColor: "#B45309",
+            backgroundColor: "#FFFBEB",
+            typeText: "Attention",
+            bodyText: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid pariatur, ipsum similique veniam quo totam eius aperiam dolorum."
+        }
     } else if (type === "error") {
         console.log("Error")
     } else {
@@ -26,7 +33,7 @@ const Banner = ({
             backgroundColor: "#EFF6FF",
             typeText: "Update available",
             bodyText: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid pariatur, ipsum similique veniam."
-                }
+        }
 
     }
 
