@@ -1,8 +1,11 @@
 import React from 'react'
+import Button from './components/Button'
 
 const App = () => {
     return (
-        <div>App</div>
+        <div id="app">
+            <Button />
+        </div>
     )
 }
 
