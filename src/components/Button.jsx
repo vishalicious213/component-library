@@ -8,6 +8,7 @@ const Button = ({
 }) => {
     return (
         <button 
+            className="badge"
             style={{
                     color: textColor, 
                     backgroundColor: backgroundColor,

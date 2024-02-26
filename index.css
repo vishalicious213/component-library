@@ -8,6 +8,8 @@ body {
     background-image: linear-gradient(to right, #dfe9ff, #cfdfff);
 }
 
+/* FONTS */
+
 .inter {
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
@@ -22,10 +24,18 @@ body {
     font-style: normal;
 }
 
+/* MAIN / UTILITIES */
+
 #app {
     margin: 1rem;
 }
 
 .container {
     margin: .5rem 0;
+}
+
+/* BADGES */
+
+.badge:hover {
+    transform: scale(1.1);
 }
