@@ -1,12 +1,13 @@
 import React from 'react'
 
-const Button = ({style="square", textColor="#1F2937", backgroundColor="#F3F4F6", text="Badge"}) => {
+const Button = ({pill=false, textColor="#1F2937", backgroundColor="#F3F4F6", text="Badge"}) => {
     return (
         <button 
-            className="inter"
+            className={pill ? "inter pill" : "inter"}
             style={{
                     color: textColor, 
                     backgroundColor: backgroundColor,
+                    padding: ".25rem .75rem",
                     border: "none"
             }}
         >
