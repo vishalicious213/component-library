@@ -48,21 +48,14 @@ const Banner = ({ type }) => {
                     backgroundColor: bannerStyle.backgroundColor,
                     borderRadius: ".25rem",
                     padding: ".25rem .75rem",
-                    margin: "0 .25rem",
-                    width: "50%",
+                    margin: ".5rem 0",
                     border: "none"
             }}
         >
-            <p style={{fontWeight: 600, color: bannerStyle.titleColor}}>{bannerStyle.typeText}</p>
+            <p style={{fontWeight: 600, color: bannerStyle.titleColor, marginBottom: ".5rem"}}>{bannerStyle.typeText}</p>
             <p style={{fontWeight: 400, color: bannerStyle.bodyColor}}>{type ? bannerStyle.bodyText : null}</p>
         </div>
     )
 }
 
 export default Banner
-
-// type=false, 
-// textColor="#1F2937", 
-// backgroundColor="#F3F4F6", 
-// typeText="Badge",
-// bodyText="Message text here"
