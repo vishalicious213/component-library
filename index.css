@@ -16,6 +16,10 @@ body {
     margin: 1rem;
 }
 
+.container {
+    margin: .25rem 0;
+}
+
 .pill {
     border-radius: 1rem;
 }
