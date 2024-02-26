@@ -4,7 +4,6 @@ const Banner = ({ type, desc }) => {
     let bannerStyle = {}
 
     if (type === "success") {
-        console.log("Success")
         bannerStyle = {
             icon: "../../public/success.svg",
             titleColor: "#065F46",
@@ -14,7 +13,6 @@ const Banner = ({ type, desc }) => {
             bodyText: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid pariatur, ipsum similique veniam."
         }
     } else if (type === "warning") {
-        console.log("Warning")
         bannerStyle = {
             icon: "../../public/warning.svg",
             titleColor: "#92400E",
@@ -24,7 +22,6 @@ const Banner = ({ type, desc }) => {
             bodyText: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid pariatur, ipsum similique veniam quo totam eius aperiam dolorum."
         }
     } else if (type === "error") {
-        console.log("Error")
         bannerStyle = {
             icon: "../../public/error.svg",
             titleColor: "#92400E",
@@ -34,7 +31,6 @@ const Banner = ({ type, desc }) => {
             bodyText: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid pariatur, ipsum similique veniam quo totam eius aperiam dolorum."
         }
     } else {
-        console.log("Neutral")
         bannerStyle = {
             icon: "../../public/neutral.svg",
             titleColor: "#1E40AF",

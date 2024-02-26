@@ -30,17 +30,46 @@ const App = () => {
 
             <div className="container">
                 <h2 className="marker">Banners</h2>
-                <Banner type="success" desc />
-                <Banner type="warning" desc />
-                <Banner type="error" desc />
-                <Banner type="neutral" desc />
-            </div>
+                <div className="marker" style={{ display: "flex", gap: "1rem"}}>
+                    <div style={{ width: "50%"}}><h3>Multi line</h3></div>
+                    <div style={{ width: "50%"}}><h3>Single line</h3></div>
+                </div>
 
-            <div className="container">
-                <Banner type="success" />
-                <Banner type="warning" />
-                <Banner type="error" />
-                <Banner type="neutral" />
+                <div style={{ display: "flex", gap: "1rem"}}>
+                    <div style={{ width: "50%"}}>
+                        <Banner type="success" desc />
+                    </div>
+                    <div style={{ width: "50%"}}>
+                        <Banner type="success" />
+                    </div>
+                </div>
+
+                <div style={{ display: "flex", gap: "1rem"}}>
+                    <div style={{ width: "50%"}}>
+                        <Banner type="warning" desc />
+                    </div>
+                    <div style={{ width: "50%"}}>
+                        <Banner type="warning" />
+                    </div>
+                </div>
+
+                <div style={{ display: "flex", gap: "1rem"}}>
+                    <div style={{ width: "50%"}}>
+                        <Banner type="error" desc />
+                    </div>
+                    <div style={{ width: "50%"}}>
+                        <Banner type="error" />
+                    </div>
+                </div>
+
+                <div style={{ display: "flex", gap: "1rem"}}>
+                    <div style={{ width: "50%"}}>
+                        <Banner type="neutral" desc />
+                    </div>
+                    <div style={{ width: "50%"}}>
+                        <Banner type="neutral" />
+                    </div>
+                </div>
             </div>
         </div>
     )
