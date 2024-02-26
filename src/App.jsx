@@ -4,6 +4,7 @@ import Button from './components/Button'
 const App = () => {
     return (
         <div id="app">
+            <h2 className="marker">Badges</h2>
             <div className="container">
                 <Button textColor="#1F2937" backgroundColor="#F3F4F6" />
                 <Button textColor="#991B1B" backgroundColor="#FEE2E2" />
