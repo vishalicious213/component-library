@@ -55,3 +55,23 @@ h3 {
     display: flex;
     gap: 1rem;
 }
+
+.banner-columns {
+    display: none;
+}
+
+@media screen and (min-width: 501px) {
+    .banners {
+        display: flex;
+        gap: 1rem;
+    }
+
+    .banner-container {
+        width: 50%;
+    }
+
+    .banner-columns {
+        display: flex;
+        gap: 1rem;
+    }
+}
