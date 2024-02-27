@@ -1,5 +1,5 @@
 import React from 'react'
-import Button from './components/Button'
+import Badge from './components/Badge'
 import Banner from './components/Banner'
 
 const App = () => {
@@ -8,25 +8,25 @@ const App = () => {
             <div className="container">
                 <h2 className="marker">Badges</h2>
                 <div>
-                    <Button textColor="#1F2937" backgroundColor="#F3F4F6" />
-                    <Button textColor="#991B1B" backgroundColor="#FEE2E2" />
-                    <Button textColor="#92400E" backgroundColor="#FEF3C7" />
-                    <Button textColor="#065F46" backgroundColor="#D1FAE5" />
-                    <Button textColor="#1E40AF" backgroundColor="#DBEAFE" />
-                    <Button textColor="#3730A3" backgroundColor="#E0E7FF" />
-                    <Button textColor="#5B21B6" backgroundColor="#EDE9FE" />
-                    <Button textColor="#9D174D" backgroundColor="#FCE7F3" />
+                    <Badge textColor="#1F2937" backgroundColor="#F3F4F6" />
+                    <Badge textColor="#991B1B" backgroundColor="#FEE2E2" />
+                    <Badge textColor="#92400E" backgroundColor="#FEF3C7" />
+                    <Badge textColor="#065F46" backgroundColor="#D1FAE5" />
+                    <Badge textColor="#1E40AF" backgroundColor="#DBEAFE" />
+                    <Badge textColor="#3730A3" backgroundColor="#E0E7FF" />
+                    <Badge textColor="#5B21B6" backgroundColor="#EDE9FE" />
+                    <Badge textColor="#9D174D" backgroundColor="#FCE7F3" />
                 </div>
 
                 <div>
-                    <Button textColor="#1F2937" backgroundColor="#F3F4F6" pill />
-                    <Button textColor="#991B1B" backgroundColor="#FEE2E2" pill />
-                    <Button textColor="#92400E" backgroundColor="#FEF3C7" pill />
-                    <Button textColor="#065F46" backgroundColor="#D1FAE5" pill />
-                    <Button textColor="#1E40AF" backgroundColor="#DBEAFE" pill />
-                    <Button textColor="#3730A3" backgroundColor="#E0E7FF" pill />
-                    <Button textColor="#5B21B6" backgroundColor="#EDE9FE" pill />
-                    <Button textColor="#9D174D" backgroundColor="#FCE7F3" pill />
+                    <Badge textColor="#1F2937" backgroundColor="#F3F4F6" pill />
+                    <Badge textColor="#991B1B" backgroundColor="#FEE2E2" pill />
+                    <Badge textColor="#92400E" backgroundColor="#FEF3C7" pill />
+                    <Badge textColor="#065F46" backgroundColor="#D1FAE5" pill />
+                    <Badge textColor="#1E40AF" backgroundColor="#DBEAFE" pill />
+                    <Badge textColor="#3730A3" backgroundColor="#E0E7FF" pill />
+                    <Badge textColor="#5B21B6" backgroundColor="#EDE9FE" pill />
+                    <Badge textColor="#9D174D" backgroundColor="#FCE7F3" pill />
                 </div>
             </div>
 

@@ -1,26 +1,27 @@
 import React from 'react'
 
-const Button = ({
+const Badge = ({
     pill=false, 
     textColor="#1F2937", 
     backgroundColor="#F3F4F6", 
     text="Badge"
 }) => {
     return (
-        <button 
-            className="badge"
+        <div
+            className="badge inter"
             style={{
                     color: textColor, 
                     backgroundColor: backgroundColor,
                     borderRadius: pill ? "1rem" : ".25rem",
+                    display: "inline-block",
                     padding: ".25rem .75rem",
                     margin: ".25rem",
                     border: "none"
             }}
         >
             {text}
-        </button>
+        </div>
     )
 }
 
-export default Button
+export default Badge
