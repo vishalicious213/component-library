@@ -39,7 +39,11 @@ const App = () => {
 
                 <div className="banners">
                     <div className="banner-container">
-                        <Banner type="success" title="Congratulations!" desc />
+                        <Banner 
+                            type="success" 
+                            title="Congratulations!" 
+                            desc="Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid pariatur, ipsum similique veniam."
+                        />
                     </div>
                     <div className="banner-container">
                         <Banner type="success" title="Congratulations!" />
@@ -50,7 +54,11 @@ const App = () => {
 
                 <div className="banners">
                     <div className="banner-container">
-                        <Banner type="warning" title="Attention" desc />
+                        <Banner 
+                            type="warning" 
+                            title="Attention" 
+                            desc="Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid pariatur, ipsum similique veniam quo totam eius aperiam dolorum."
+                        />
                     </div>
                     <div className="banner-container">
                         <Banner type="warning" title="Attention" />
@@ -59,7 +67,11 @@ const App = () => {
 
                 <div className="banners">
                     <div className="banner-container">
-                        <Banner type="error" title="There is a problem with your application" desc />
+                        <Banner 
+                            type="error" 
+                            title="There is a problem with your application" 
+                            desc="Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid pariatur, ipsum similique veniam quo totam eius aperiam dolorum."
+                        />
                     </div>
                     <div className="banner-container">
                         <Banner type="error" title="There is a problem with your application" />
@@ -68,7 +80,11 @@ const App = () => {
 
                 <div className="banners">
                     <div className="banner-container">
-                        <Banner type="neutral" title="Update available" desc />
+                        <Banner 
+                            type="neutral" 
+                            title="Update available" 
+                            desc="Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid pariatur, ipsum similique veniam."
+                        />
                     </div>
                     <div className="banner-container">
                         <Banner type="neutral" title="Update available" />

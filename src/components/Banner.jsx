@@ -10,7 +10,7 @@ const Banner = ({ type, title, desc }) => {
             bodyColor: "#047857",
             backgroundColor: "#ECFDF5",
             typeText: title,
-            bodyText: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid pariatur, ipsum similique veniam."
+            bodyText: desc
         }
     } else if (type === "warning") {
         bannerStyle = {
@@ -19,7 +19,7 @@ const Banner = ({ type, title, desc }) => {
             bodyColor: "#B45309",
             backgroundColor: "#FFFBEB",
             typeText: title,
-            bodyText: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid pariatur, ipsum similique veniam quo totam eius aperiam dolorum."
+            bodyText: desc
         }
     } else if (type === "error") {
         bannerStyle = {
@@ -28,7 +28,7 @@ const Banner = ({ type, title, desc }) => {
             bodyColor: "#B45309",
             backgroundColor: "#FEF2F2",
             typeText: title,
-            bodyText: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid pariatur, ipsum similique veniam quo totam eius aperiam dolorum."
+            bodyText: desc
         }
     } else {
         bannerStyle = {
@@ -37,7 +37,7 @@ const Banner = ({ type, title, desc }) => {
             bodyColor: "#1C51B9",
             backgroundColor: "#EFF6FF",
             typeText: title,
-            bodyText: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid pariatur, ipsum similique veniam."
+            bodyText: desc
         }
     }
 
