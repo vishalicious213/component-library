@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Banner = ({ type, desc }) => {
+const Banner = ({ type, title, desc }) => {
     let bannerStyle = {}
 
     if (type === "success") {
@@ -9,7 +9,7 @@ const Banner = ({ type, desc }) => {
             titleColor: "#065F46",
             bodyColor: "#047857",
             backgroundColor: "#ECFDF5",
-            typeText: "Congratulations!",
+            typeText: title,
             bodyText: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid pariatur, ipsum similique veniam."
         }
     } else if (type === "warning") {
@@ -18,7 +18,7 @@ const Banner = ({ type, desc }) => {
             titleColor: "#92400E",
             bodyColor: "#B45309",
             backgroundColor: "#FFFBEB",
-            typeText: "Attention",
+            typeText: title,
             bodyText: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid pariatur, ipsum similique veniam quo totam eius aperiam dolorum."
         }
     } else if (type === "error") {
@@ -27,7 +27,7 @@ const Banner = ({ type, desc }) => {
             titleColor: "#92400E",
             bodyColor: "#B45309",
             backgroundColor: "#FEF2F2",
-            typeText: "There is a problem with your application",
+            typeText: title,
             bodyText: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid pariatur, ipsum similique veniam quo totam eius aperiam dolorum."
         }
     } else {
@@ -36,7 +36,7 @@ const Banner = ({ type, desc }) => {
             titleColor: "#1E40AF",
             bodyColor: "#1C51B9",
             backgroundColor: "#EFF6FF",
-            typeText: "Update available",
+            typeText: title,
             bodyText: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid pariatur, ipsum similique veniam."
         }
     }

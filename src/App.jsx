@@ -39,10 +39,10 @@ const App = () => {
 
                 <div className="banners">
                     <div className="banner-container">
-                        <Banner type="success" desc />
+                        <Banner type="success" title="Congratulations!" desc />
                     </div>
                     <div className="banner-container">
-                        <Banner type="success" />
+                        <Banner type="success" title="Congratulations!" />
                     </div>
                 </div>
 
@@ -50,28 +50,28 @@ const App = () => {
 
                 <div className="banners">
                     <div className="banner-container">
-                        <Banner type="warning" desc />
+                        <Banner type="warning" title="Attention" desc />
                     </div>
                     <div className="banner-container">
-                        <Banner type="warning" />
-                    </div>
-                </div>
-
-                <div className="banners">
-                    <div className="banner-container">
-                        <Banner type="error" desc />
-                    </div>
-                    <div className="banner-container">
-                        <Banner type="error" />
+                        <Banner type="warning" title="Attention" />
                     </div>
                 </div>
 
                 <div className="banners">
                     <div className="banner-container">
-                        <Banner type="neutral" desc />
+                        <Banner type="error" title="There is a problem with your application" desc />
                     </div>
                     <div className="banner-container">
-                        <Banner type="neutral" />
+                        <Banner type="error" title="There is a problem with your application" />
+                    </div>
+                </div>
+
+                <div className="banners">
+                    <div className="banner-container">
+                        <Banner type="neutral" title="Update available" desc />
+                    </div>
+                    <div className="banner-container">
+                        <Banner type="neutral" title="Update available" />
                     </div>
                 </div>
             </div>
