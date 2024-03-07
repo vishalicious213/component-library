@@ -1,6 +1,6 @@
 import React from 'react'
-import Badge from './components/Badge'
-import Banner from './components/Banner'
+import Badge from './components/Badge/Badge'
+import Banner from './components/Banner/Banner'
 
 const App = () => {
     return (
