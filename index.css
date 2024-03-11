@@ -132,14 +132,18 @@ h3 {
 }
 
 .testimonial {
-    text-align: center;
-    max-width: 985px;
-    padding: 0 224px;
+    /* text-align: center; */
+    max-width: 376px;
+    padding: 0 1rem;
     color: #111827;
+    margin: 0 auto;
+    outline: 1px solid red;
 }
 
 .test-logo {
     max-width: 180px;
+    outline: 1px solid red;
+    margin: 0 auto;
 }
 
 .test-text {
@@ -165,5 +169,12 @@ h3 {
     .banner-columns {
         display: flex;
         gap: 1rem;
+    }
+
+    .testimonial {
+        text-align: center;
+        max-width: 985px;
+        padding: 0 224px;
+        color: #111827;
     }
 }
