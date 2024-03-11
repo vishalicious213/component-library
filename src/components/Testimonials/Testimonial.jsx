@@ -10,6 +10,7 @@ const Testimonial = ({
     return (
         <div>
             <img src={pic} alt="" />
+            <img src={logo} alt="" />
             <p>{text}</p>
             <p>{name} / {title}</p>
         </div>

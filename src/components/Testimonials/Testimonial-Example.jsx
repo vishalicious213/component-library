@@ -7,7 +7,7 @@ const TestimonialExample = () => {
             <h2 className="marker">Testimonials</h2>
             <Testimonial
                     pic=""
-                    logo=""
+                    logo="/logo.svg"
                     text="“Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo expedita voluptas culpa sapiente alias molestiae. Numquam corrupti in laborum sed rerum et corporis.”"
                     name="May Andersons"
                     title="Workcation CTO"
