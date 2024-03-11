@@ -7,7 +7,6 @@ const Card = ({
 }) => {
     return (
         <div>
-            <h2 className="marker">Cards</h2>
             <div className='card inter'>
                 <img src={icon} alt="" />
                 <h3>{title}</h3>
