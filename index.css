@@ -74,6 +74,11 @@ h3 {
     position: relative;
 }
 
+.card:hover {
+    box-shadow: 0px 4px 25px 0px #0000001A;
+    cursor: pointer;
+}
+
 .card h3 {
     color: #111827;
     font-weight: 500;
