@@ -8,10 +8,10 @@ const Testimonial = ({
     title
 }) => {
     return (
-        <div>
+        <div className="testimonial inter">
             <img src={pic} alt="" />
-            <img src={logo} alt="" />
-            <p>{text}</p>
+            <img className="test-logo" src={logo} alt="" />
+            <p className="test-text">{text}</p>
             <p>{name} / {title}</p>
         </div>
     )
