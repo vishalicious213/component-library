@@ -19,10 +19,13 @@ const Testimonial = ({
     return (
         <div className="test-wrapper">
             <div className="testimonial inter">
-                <img src={pic} alt="" />
-                <div className="test-logo-container">
-                    <img className="test-logo" src={logo} alt="" />
-                </div>
+                {pic ? <img src={pic} alt="" /> : null}                
+                {!pic ? 
+                    <div className="test-logo-container">
+                        <img className="test-logo" src={logo} alt="" />
+                    </div>
+                    : null
+                }
                 <p className="test-text">{text}</p>
                 {width > 500 
                     ? <p>{name} / <span className="test-title">{title}</span></p>
