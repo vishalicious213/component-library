@@ -13,9 +13,11 @@ const App = () => {
 
     return (
         <div id="app">
-            <button onClick={() => handleClick("badge")}>Badge</button>
-            <button onClick={() => handleClick("banner")}>Banner</button>
-            <button onClick={() => handleClick("card")}>Card</button>
+            <div className="buttons">
+                <button className="option" onClick={() => handleClick("badge")}>Badge</button>
+                <button className="option" onClick={() => handleClick("banner")}>Banner</button>
+                <button className="option" onClick={() => handleClick("card")}>Card</button>
+            </div>
 
             <div>
                 {
