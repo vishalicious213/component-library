@@ -1,8 +1,18 @@
 import React from 'react'
 
-const Testimonial = () => {
+const Testimonial = ({
+    pic,
+    logo,
+    text,
+    name,
+    title
+}) => {
     return (
-        <div>Testimonial</div>
+        <div>
+            <img src={pic} alt="" />
+            <p>{text}</p>
+            <p>{name} / {title}</p>
+        </div>
     )
 }
 
