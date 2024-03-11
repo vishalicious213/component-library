@@ -5,7 +5,7 @@ const Banner = ({ type, title, desc }) => {
 
     if (type === "success") {
         bannerStyle = {
-            icon: "../../public/success.svg",
+            icon: "/success.svg",
             titleColor: "#065F46",
             bodyColor: "#047857",
             backgroundColor: "#ECFDF5",
@@ -14,7 +14,7 @@ const Banner = ({ type, title, desc }) => {
         }
     } else if (type === "warning") {
         bannerStyle = {
-            icon: "../../public/warning.svg",
+            icon: "/warning.svg",
             titleColor: "#92400E",
             bodyColor: "#B45309",
             backgroundColor: "#FFFBEB",
@@ -23,7 +23,7 @@ const Banner = ({ type, title, desc }) => {
         }
     } else if (type === "error") {
         bannerStyle = {
-            icon: "../../public/error.svg",
+            icon: "/error.svg",
             titleColor: "#92400E",
             bodyColor: "#B45309",
             backgroundColor: "#FEF2F2",
@@ -32,7 +32,7 @@ const Banner = ({ type, title, desc }) => {
         }
     } else {
         bannerStyle = {
-            icon: "../../public/neutral.svg",
+            icon: "/neutral.svg",
             titleColor: "#1E40AF",
             bodyColor: "#1C51B9",
             backgroundColor: "#EFF6FF",
