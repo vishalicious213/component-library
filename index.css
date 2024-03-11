@@ -135,6 +135,7 @@ h3 {
     text-align: center;
     max-width: 985px;
     padding: 0 224px;
+    color: #111827;
 }
 
 .test-logo {
@@ -143,6 +144,10 @@ h3 {
 
 .test-text {
     margin: 2rem 0;
+}
+
+.test-title {
+    color: #6B7280;
 }
 
 /* MEDIA QUERIES */

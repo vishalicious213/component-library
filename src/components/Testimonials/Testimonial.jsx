@@ -13,7 +13,7 @@ const Testimonial = ({
                 <img src={pic} alt="" />
                 <img className="test-logo" src={logo} alt="" />
                 <p className="test-text">{text}</p>
-                <p>{name} / {title}</p>
+                <p>{name} / <span class="test-title">{title}</span></p>
             </div>
         </div>
     )
