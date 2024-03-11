@@ -133,17 +133,24 @@ h3 {
 
 .testimonial {
     /* text-align: center; */
-    max-width: 376px;
+    max-width: 500px;
     padding: 0 1rem;
     color: #111827;
     margin: 0 auto;
-    outline: 1px solid red;
+    /* outline: 1px solid red; */
+}
+
+.test-logo-container {
+    /* outline: 1px solid orange; */
+    text-align: center;
+    margin: 0;
+    padding: 0;
 }
 
 .test-logo {
     max-width: 180px;
-    outline: 1px solid red;
-    margin: 0 auto;
+    /* outline: 1px solid red; */
+    /* margin: 0 auto; */
 }
 
 .test-text {
