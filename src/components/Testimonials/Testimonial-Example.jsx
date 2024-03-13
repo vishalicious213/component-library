@@ -13,7 +13,9 @@ const TestimonialExample = () => {
                 title="Workcation CTO"
             />
 
-            <Testimonial
+            <br />
+
+            <TestimonialWithPic
                 pic="/avatar.png"
                 text="“Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo expedita voluptas culpa sapiente alias molestiae. Numquam corrupti in laborum sed rerum et corporis.”"
                 name="May Andersons"
