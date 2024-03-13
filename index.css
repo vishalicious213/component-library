@@ -138,6 +138,11 @@ h3 {
     margin: 0 auto;
 }
 
+.test-img-container {
+    display: flex;
+    justify-content: center;
+}
+
 .test-logo-container {
     text-align: center;
     margin: 0;
@@ -145,8 +150,7 @@ h3 {
 }
 
 .test-img {
-    width: 90%;
-    max-width: 344px;
+    width: 100%;
 }
 
 .test-logo {
