@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Testimonial = ({
+const TestimonialWithPic = ({
     pic,
     logo,
     text,
@@ -10,12 +10,12 @@ const Testimonial = ({
     return (
         <div className="test-wrapper">
             <div className="testimonial inter">
-                {/* {pic ? 
+                {pic ? 
                     <div className="test-img-container">
                         <img className="test-img" src={pic} alt="" />
                     </div>
                     : null
-                } */}
+                }
                 {!pic ? 
                     <div className="test-logo-container">
                         <img className="test-logo" src={logo} alt="" />
@@ -30,4 +30,4 @@ const Testimonial = ({
     )
 }
 
-export default Testimonial
+export default TestimonialWithPic
