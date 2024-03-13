@@ -14,8 +14,7 @@ const TestimonialWithPic = ({
                 </div>
                 <img src="/quote.svg" alt="" />
                 <p className="test-text">{text}</p>
-                <p className="title-lg">{name} / <span className="test-title">{title}</span></p>
-                <div className="title-sm"><p>{name}</p><p className="test-title">{title}</p></div>
+                <div><p>{name}</p><p>{title}</p></div>
             </div>
         </div>
     )
